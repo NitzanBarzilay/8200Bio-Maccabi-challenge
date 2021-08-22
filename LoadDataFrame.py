@@ -6,4 +6,6 @@ def createDF():
     preprocess(original_data)
 
 def preprocess(data):
-    pass
+    print(data.head())
+
+createDF()
